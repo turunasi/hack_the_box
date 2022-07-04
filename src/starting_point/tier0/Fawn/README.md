@@ -32,7 +32,7 @@ ftp -h
 **-h option is not recognized in my kali-linux...**
 ## task 8
 Anonymous
-## task 9
+## Submit Flag
 ```
 ┌──(root㉿cbfc9d3c3a36)-[/mnt/src/starting_point/tier0/Fawn]
 └─# ftp <your target ip>
