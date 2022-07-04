@@ -1,0 +1,10 @@
+version: '3'
+services:
+  container:
+    image: kalilinux/kali-rolling
+    ports: 
+      - 1194:1194
+    tty: true
+    privileged: true
+    volumes:
+      - ./src:/mnt/src
