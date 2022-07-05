@@ -1,4 +1,4 @@
-# Appointment
+# Sequel
 ## task 1
 Structured Query Language
 ## task 2
