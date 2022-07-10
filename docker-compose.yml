@@ -2,8 +2,14 @@ version: '3'
 services:
   container:
     image: kalilinux/kali-rolling
-    ports: 
-      - 1194:1194
+    ports:
+      - 80:80     # http
+      - 443:443   # https
+      - 1194:1194 # openvpn
+      - 5900:5900 # VNC
+      - 6080:6080 # NonVNC
+    environment:
+      - RESOLUTION=1920x1080x24
     tty: true
     privileged: true
     volumes:
